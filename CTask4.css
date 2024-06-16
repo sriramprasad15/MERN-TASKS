@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;   
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+    margin: 50px;
+    margin-right: 700px;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 125px;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;  
+}
+
+.sidenav .btn {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+
+.sidenav .btn.green { background-color: green; }
+.sidenav .btn.blue { background-color: blue; }
+.sidenav .btn.red { background-color: red; }
+.sidenav .btn.gray { background-color: gray; }
+
+.sidenav .btn:hover {
+    width: 200px;
+    height: 50px;
+}
+.main {
+    padding: 20px;
+
+}
+
+.main h2 {
+    margin-top: 0;
+}

@@ -1,0 +1,25 @@
+.container
+{   
+        margin-left: 25%;
+        margin-top: 10%;
+        padding-top: 3%;
+        padding-right: 3%; 
+        width: 500px;
+        height: 400px;
+        background-color: rgb(113, 2, 94);
+}
+.table-container
+{
+    margin-top: 12px;
+    margin-left: 10%;    
+    margin-right: 10%;
+    padding: 10%;
+    width: 350px;
+    background-color: rgb(83, 11, 50) ;
+    
+        
+}
+td
+{
+    color: white;
+}
